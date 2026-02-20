@@ -1,4 +1,4 @@
-# Evaluación 1 - Sistema de Gimnasio (Suscripciones)
+# Evaluación 1 - Sistema de Musica (Generos->Albums)
 
 ## Información del Proyecto
 - **Universidad:** UNIVERSIDAD POLITÉCNICA TERRITORIAL DEL ESTADO ARAGUA “FEDERICO BRITO FIGUEROA”
@@ -12,7 +12,8 @@
 2. Tovar Jorge
 
 ## Enunciado 10: Música
-Crear crud de la tabla Albúm que dependa de la Tabla Género:
+Crear crud de la tabla Albúm que dependa de la Tabla Género
+
 Albúm:
 - ID
 - Nombre_album (album_name en el ejercicio) (string)
