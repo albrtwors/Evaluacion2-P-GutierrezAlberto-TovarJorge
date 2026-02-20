@@ -4,7 +4,7 @@
         @forelse($albums as $album)
             <div class="border-2 p-3 bg-sky-400 text-black">
                 <strong class="font-bold">Nombre:</strong>
-                <p>{{ $album->name }}</p>
+                <p>{{ $album->album_name }}</p>
                 <strong class="font-bold">Año de lanzamiento:</strong>
                 <p>{{ $album->release_year }}</p>
                 <strong class="font-bold">Discográfica:</strong>

@@ -10,9 +10,9 @@
         @endif
         <div class="flex flex-col gap-1">
             <label>Nombre</label>
-            <input name='name' value='{{ old('name') }}'
+            <input name='album_name' value='{{ old('name') }}'
                 class="p-2 font-bold border-2 border-black bg-sky-400 hover:bg-sky-200 transition">
-            @error('name')
+            @error('album_name')
                 <div class="p-3 border-red-400 bg-red-200 text-red-900 font-bold">
                     {{ $message }}
                 </div>

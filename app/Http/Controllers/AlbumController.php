@@ -33,7 +33,7 @@ class AlbumController extends Controller
     public function store(Request $request)
     {
         $album = $request->validate([
-            'name'=>'max:45|string|required|unique:albums,name',
+            'album_name'=>'max:45|string|required|unique:albums,name',
             'release_year'=>'required|numeric|digits:4',
             'discographic'=>'max:45|string|required',
             'genre_id'=>'required|integer|exists:genres,id'

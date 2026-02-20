@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('albums', function (Blueprint $table) {
             $table->id();
-            $table->string('name', 45);
+            $table->string('album_name', 45);
             $table->integer('release_year');
             $table->string('discographic', 45);
             $table->unsignedBigInteger('genre_id');
