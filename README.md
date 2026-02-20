@@ -1,4 +1,4 @@
-# Evaluación 1 - Sistema de Gimnasio (Suscripciones)
+# Evaluación 1 - Sistema de Musica (Generos->Albums)
 
 ## Información del Proyecto
 - **Universidad:** UNIVERSIDAD POLITÉCNICA TERRITORIAL DEL ESTADO ARAGUA “FEDERICO BRITO FIGUEROA”
