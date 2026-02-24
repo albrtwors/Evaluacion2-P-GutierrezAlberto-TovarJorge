@@ -30,13 +30,16 @@ Albúm:
 ### Pasos
 
 1-Clonar repositorio:
-git clone https://github.com/albrtwors/Evaluacion2-P-GutierrezAlberto-TovarJorge.git
+
+`git clone https://github.com/albrtwors/Evaluacion2-P-GutierrezAlberto-TovarJorge.git`
 
 Acceder al repositorio:
-cd Evaluacion2-P-GutierrezAlberto-TovarJorge.git
+
+`cd Evaluacion2-P-GutierrezAlberto-TovarJorge.git`
 
 2-Instalar dependencias:
-composer install
+
+`composer install`
 
 
 3-Configurar archivo .env:
@@ -46,10 +49,12 @@ composer install
 
 
 4-Ejecutar migraciones y seeders (seeders de generos):
-php artisan migrate:fresh --seed
+
+`php artisan migrate:fresh --seed`
 
 5-Iniciar servidor:
-php artisan serve
+
+`php artisan serve`
 
 6-Acceder en navegador:
 http://127.0.0.1:8000/albums
