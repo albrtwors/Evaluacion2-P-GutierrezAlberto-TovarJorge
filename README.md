@@ -43,10 +43,12 @@ Acceder al repositorio:
 
 
 3. Configurar archivo .env:
+   
  Editar .env y asegurar estas líneas:
+ ```
  DB_CONNECTION=sqlite
  DB_DATABASE=database/database.sqlite
-
+```
 
 4. Ejecutar migraciones y seeders (seeders de generos):
 
