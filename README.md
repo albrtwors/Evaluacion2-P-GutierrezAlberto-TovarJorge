@@ -29,7 +29,7 @@ Albúm:
 
 ### Pasos
 
-1-Clonar repositorio:
+1. Clonar repositorio:
 
 `git clone https://github.com/albrtwors/Evaluacion2-P-GutierrezAlberto-TovarJorge.git`
 
@@ -37,24 +37,24 @@ Acceder al repositorio:
 
 `cd Evaluacion2-P-GutierrezAlberto-TovarJorge.git`
 
-2-Instalar dependencias:
+2. Instalar dependencias:
 
 `composer install`
 
 
-3-Configurar archivo .env:
+3. Configurar archivo .env:
  Editar .env y asegurar estas líneas:
  DB_CONNECTION=sqlite
  DB_DATABASE=database/database.sqlite
 
 
-4-Ejecutar migraciones y seeders (seeders de generos):
+4. Ejecutar migraciones y seeders (seeders de generos):
 
 `php artisan migrate:fresh --seed`
 
-5-Iniciar servidor:
+5. Iniciar servidor:
 
 `php artisan serve`
 
-6-Acceder en navegador:
+6. Acceder en navegador:
 http://127.0.0.1:8000/albums
